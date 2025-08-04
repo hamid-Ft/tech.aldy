@@ -1,9 +1,5 @@
 'use client';
-import { Status, StatusIndicator, StatusLabel } from './_components/ui/status';
-import LightRays from './_components/lightray';
-import MultiButton from '@/components/ui/multi-button';
 import { Facebook, Link, Linkedin, Twitter } from 'lucide-react';
-import AnimatedOrbitalSystem from '@/components/hero-section';
 import HeroSection from './_components/hero-section';
 
 export default function Home() {
@@ -47,8 +43,8 @@ export default function Home() {
 			// className="flex gap-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
 			>
 				<HeroSection />
-				<section className='w-screen h-[50rem] flex flex-col items-center justify-end'>
-					<h1 className="text-5xl font-bold text-primary user-select-none">سرویس‌های آلدی</h1>
+				<section className="w-screen h-[50rem] flex flex-col items-center justify-center md:justify-end">
+					<h1 className="text-5xl md:text-8xl font-bold text-primary user-select-none">سرویس‌های آلدی</h1>
 				</section>
 
 				{/* <Status status="online">
